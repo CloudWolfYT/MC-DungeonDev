@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?)](#contributors-)
 [![Discord](https://img.shields.io/badge/Discord-⛓-blue.svg)](https://discord.gg/5wkd8F45bR)
 [![Tutorial](https://img.shields.io/badge/Tutorial-▶-red.svg)](https://www.youtube.com/watch?v=6iwiIez8VlA)
-[![Downloads](https://img.shields.io/github/downloads/CloudWolfYT/MC-Slowcasting/total.svg)](https://github.com/CloudWolfYT/MC-DungeonDev/releases)
+[![Downloads](https://img.shields.io/github/downloads/CloudWolfYT/MC-DungeonDev/total.svg)](https://github.com/CloudWolfYT/MC-DungeonDev/releases)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <img src="images/social.png"
      alt="Social Image"
