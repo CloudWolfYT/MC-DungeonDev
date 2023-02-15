@@ -1,5 +1,0 @@
-tellraw @a {"text":"--[l,r,u,d]--"}
-tellraw @a [{"text":"N=["},{"score":{"objective":"dg.door.n.l","name":"@s"}},{"text":","},{"score":{"objective":"dg.door.n.r","name":"@s"}},{"text":","},{"score":{"objective":"dg.door.n.u","name":"@s"}},{"text":","},{"score":{"objective":"dg.door.n.d","name":"@s"}},{"text":"]"}]
-tellraw @a [{"text":"W=["},{"score":{"objective":"dg.door.w.l","name":"@s"}},{"text":","},{"score":{"objective":"dg.door.w.r","name":"@s"}},{"text":","},{"score":{"objective":"dg.door.w.u","name":"@s"}},{"text":","},{"score":{"objective":"dg.door.w.d","name":"@s"}},{"text":"]"}]
-tellraw @a [{"text":"E=["},{"score":{"objective":"dg.door.e.l","name":"@s"}},{"text":","},{"score":{"objective":"dg.door.e.r","name":"@s"}},{"text":","},{"score":{"objective":"dg.door.e.u","name":"@s"}},{"text":","},{"score":{"objective":"dg.door.e.d","name":"@s"}},{"text":"]"}]
-tellraw @a [{"text":"S=["},{"score":{"objective":"dg.door.s.l","name":"@s"}},{"text":","},{"score":{"objective":"dg.door.s.r","name":"@s"}},{"text":","},{"score":{"objective":"dg.door.s.u","name":"@s"}},{"text":","},{"score":{"objective":"dg.door.s.d","name":"@s"}},{"text":"]"}]

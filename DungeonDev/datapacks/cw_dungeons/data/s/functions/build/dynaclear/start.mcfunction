@@ -1,1 +1,0 @@
-function s:build/dynaclear/loop
