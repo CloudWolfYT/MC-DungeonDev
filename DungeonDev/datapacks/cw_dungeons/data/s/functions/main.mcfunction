@@ -1,0 +1,1 @@
+execute if entity @a[gamemode=creative] run function s:editor/main
