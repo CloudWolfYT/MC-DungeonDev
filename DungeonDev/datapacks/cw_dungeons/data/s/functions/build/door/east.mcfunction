@@ -34,5 +34,3 @@ kill @e[type=marker,tag=dg.new,tag=dg.door.w]
 
 tag @e remove dg.valid
 tag @e remove dg.new
-execute if score .dyna-clear dg.build matches 0 run kill @s
-execute if score .dyna-clear dg.build matches 1 run function s:build/dynaclear/mark
