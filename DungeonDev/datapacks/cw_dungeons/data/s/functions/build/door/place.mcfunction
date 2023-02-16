@@ -1,5 +1,5 @@
 # let the system know you placed a room
-execute if entity @e[type=marker,tag=dg.choice] run scoreboard players set #placed dg 1
+scoreboard players set #placed dg 1
 
 # move door to the /place origin such that it will align the opposing doors to touch
 execute store result score #x dg run data get entity @s Pos[0]

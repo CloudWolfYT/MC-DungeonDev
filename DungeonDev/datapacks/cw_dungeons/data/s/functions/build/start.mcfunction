@@ -16,7 +16,7 @@ execute if score .seeded dg.build matches 1 run scoreboard players operation #se
 function s:dungeons/root
 
 # initialize room depth scores
-scoreboard players set @e[type=marker,tag=dg.door,distance=..15] dg.depth 0
+scoreboard players set @e[type=marker,tag=dg.door,distance=..25] dg.depth 0
 
 # start loop
 scoreboard players set .global dg.depth 0

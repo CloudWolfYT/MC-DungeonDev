@@ -6,7 +6,7 @@ execute rotated -90 0 positioned ~1 ~ ~ run function s:measure/base32/start
 execute as @e[type=marker,tag=dg.room,tag=dg.level] if score @s dg.min_depth <= .global dg.depth if score @s dg.door.w.l <= .r dg if score @s dg.door.w.r <= .l dg if score @s dg.door.w.u <= .u dg if score @s dg.door.w.d <= .d dg if score @s dg.door.zX <= .z dg run tag @s add dg.valid
 
 # pick one of the tagged rooms using LCG (for weighting and seeding purposes)
-function s:build/door/pick_room/start
+execute if entity @e[type=marker,tag=dg.valid] run function s:build/door/pick_room/start
 
 # grab the chosen doors measurements
 scoreboard players operation .l dg = @e[type=marker,tag=dg.choice] dg.door.w.l
@@ -25,7 +25,7 @@ scoreboard players operation #dz dg -= .r dg
 execute if score .dyna-clear dg.build matches 1 run function s:build/dynaclear/scores
 
 # /place the room
-function s:build/door/place
+execute if entity @e[type=marker,tag=dg.choice] run function s:build/door/place
 
 
 # translate this door's depth to the newly placed door's depths
