@@ -33,4 +33,3 @@ kill @e[type=marker,tag=dg.new,tag=dg.door.n]
 
 tag @e remove dg.valid
 tag @e remove dg.new
-tag @e remove dg.choice

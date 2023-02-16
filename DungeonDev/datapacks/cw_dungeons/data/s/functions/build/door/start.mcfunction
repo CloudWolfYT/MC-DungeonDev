@@ -6,7 +6,7 @@ execute if entity @s[tag=dg.door.n] run function s:build/door/north
 execute if entity @s[tag=dg.door.w] run function s:build/door/west
 
 execute if score #placed dg matches 0 run function s:build/door/deadend
-execute if score .tunnels dg.build matches 1 if score #placed dg matches 0 run function s:build/tunnel/spawn
-
 execute if score .dyna-clear dg.build matches 0 run kill @s
 execute if score .dyna-clear dg.build matches 1 run function s:build/dynaclear/mark
+
+#execute if score .tunnels dg.build matches 1 if score #placed dg matches 0 run function s:build/tunnel/spawn
